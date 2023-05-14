@@ -1,0 +1,112 @@
+
+  
+
+  #nav{
+      background: #111;
+      width:0;
+      height: 100%;
+      position: fixed;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: 1.5s;
+      top: 0;
+      padding-top: 0
+    }
+    #nav a{
+      
+     
+   
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+#close{
+  color: #818181;
+  font-size: 50px;
+  margin-left: 80%;
+  transition:5s
+}
+#nav a:hover{
+  color: white;
+  font-size: 50px;
+  transition: 0.5s
+}
+body{
+  background-color: #eee;
+  transition: 2s
+}
+#head{
+  display:flex;
+  overflow: none;
+  padding-left: 25%
+}
+#text{
+  color: red;
+}
+*{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#login{
+   color:black;
+   
+   border-radius: 10px;
+   font-weight: bold;
+  
+   margin: auto;
+   text-align: center
+}
+input{
+  background:rgba(147, 148, 160, 1) ;
+  border: none;
+  outline:none;
+  border-radius:5px;
+  color: white;
+  font-weight: bold;
+  height: 16px;
+  padding: 10px;
+  margin-top:10px;
+}
+#login #top{
+  font-size: 30px;
+  padding-top: 20px
+}
+#login label{
+  font-size: 18px
+}
+#sub{
+  background: #3137DC;
+  margin-top:30px;
+  padding:10px;
+  height:50px;
+  width:100px;
+}
+/*
+@media only screen and (orientation:landscape){
+  #body{
+    background: white;
+    margin-left: 40%
+  }
+  #nav{
+    width:40%;
+    padding-top: 30px
+  }
+  #close{
+    display: none;
+  }
+}*/
+@media only screen and (min-width:1024){
+  #body{
+    background: blue;
+    margin-left: 40%;
+  }
+  #nav{
+    width:40%;
+    padding-top: 30px
+  }
+  
+}
+  
